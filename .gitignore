@@ -1,0 +1,32 @@
+# https://git-scm.com/docs/gitignore
+# https://help.github.com/articles/ignoring-files
+# Example .gitignore files: https://github.com/github/gitignore
+/bower_components/
+/node_modules/
+
+# npm debugging logs
+*.log
+
+# project dependencies
+node_modules
+
+# OSX folder attributes
+.DS_Store
+
+# temporary files
+*.tmp
+*~
+
+
+.eslintrc
+.eslintrc.js
+.eslintrc.json
+.eslintrc.yml
+.eslintrules
+npmrc
+package-lock.json
+package.json
+urix
+.vscode/launch.json
+.vscode/settings.json
+.vs
