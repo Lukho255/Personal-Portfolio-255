@@ -17,6 +17,7 @@ node_modules
 *.tmp
 *~
 
+
 .bak
 .eslintrc
 .eslintrc.js
@@ -30,3 +31,7 @@ urix
 .vscode/launch.json
 .vscode/settings.json
 .vs
+
+#
+/public/dist/
+/dist/
