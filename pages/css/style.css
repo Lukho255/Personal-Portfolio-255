@@ -27,13 +27,13 @@ body {
 }
  
 a {
-  color: #0BCEAF;
+  color: #008080;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #078571;
+  color: #008080;
   text-decoration: underline;
 }
  
@@ -88,7 +88,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #0BCEAF;
+  color: #008080;
 }
 
 @media (max-width: 991.98px) {
@@ -122,20 +122,32 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .blue{
-  background-color: #1c5ce6;
+  background-color: teal;
   color: #ffffff;
 }
 .btn{
-  border: 2px solid rgb(29, 105, 247);
+  border: 2px solid rgb(9, 172, 158);
 } 
 .btn-white{
   background-color: #ffffff;
   border:2px solid #ffffff;
+
 }
 .btn-blue{
   border: 2.4px solid #ffffff;
   color: #ffffff;
 }
+
+a.btn:hover{
+  background: radial-gradient(circle, rgba(0,128,127,1) 0%, rgba(235,159,166,1) 100%);
+}
+
+
+/* a#ar2:hover{
+  background-color: blueviolet;
+} */
+
+
 @media (max-width: 700px) {
   .about-img{
     margin-left: 20px;
@@ -154,13 +166,6 @@ h1,h2,h3,h4,h5,h6,p{
   border-radius: 10px;
   transition: 2s;
 }
-
-
-/* =================== Queality ======================*/
-.ex-me{
-  margin-top: 35px;
-}
-
 
 /* =================== Service Section ==================*/
 .service-h4{
@@ -184,7 +189,7 @@ h1,h2,h3,h4,h5,h6,p{
   padding-right: 30px;
 }
 .service-box:hover{
-  box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705); 
+  box-shadow: 0px 1px 13px rgba(241, 170, 218, 0.918); 
  
 }
 /* =================== Portfolio section ==================*/
@@ -235,7 +240,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .testimonial-carousel .owl-dot.active {
-  background: #0BCEAF;
+  background: #008080;
 }
 
 
@@ -249,7 +254,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
-/*====================== Back to buttom ==================*/
+/*====================== Back to bottom ==================*/
 
 .scroll-to-bottom {
   position: fixed;
