@@ -1,0 +1,59 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.bgimg {
+    background-image: url('/pages/img/IMG_1423.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+.btn {
+    background-color: #ddd;
+    border: 2px solid rgb(9, 172, 158);
+    border-radius: 50px;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    text-decoration: double;
+}
+
+.btn:hover {
+    background: radial-gradient(circle, rgba(0, 128, 127, 1) 0%, rgba(235, 159, 166, 1) 100%);
+    color: white;
+}

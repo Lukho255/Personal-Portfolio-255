@@ -31,6 +31,7 @@ urix
 .vscode/launch.json
 .vscode/settings.json
 .vs
+.quokka
 
 #
 /public/dist/
